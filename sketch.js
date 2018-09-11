@@ -40,7 +40,7 @@ function draw()
 
 	fill(200,200,255);
 	stroke(0,0,0);
-	rect(button2X,150,100,50);
+	rect(button2X,button2Y,100,50);
 
 	if (mouseX > button2X && mouseX < button2X + 100 && mouseY > button2Y && mouseY < button2Y+50)
 	{
